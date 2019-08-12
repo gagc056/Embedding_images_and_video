@@ -1,6 +1,8 @@
 body {
     background-color: gray;
   }
-  sidebar{
+  
+#sidebar{
     float:right;
 }
+
