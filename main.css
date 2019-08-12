@@ -5,4 +5,8 @@ body {
 #sidebar{
     float:right;
 }
+#videos{
+    float:left;
+    top:100px;
+}
 
