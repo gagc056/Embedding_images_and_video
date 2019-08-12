@@ -1,5 +1,6 @@
 <html>
     <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <link rel="stylesheet" type="text/css" href="main.css">
     </head>    
 
@@ -87,15 +88,22 @@
           <h1>Video title</h1>
           <h2>Ex-Google Tech Lead explains the pros & cons of traveling alone to Hawaii.</h2>
           <h1>views:100</h1>
+          
           <button>Share</button>
+          <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+          <i onclick="myFunction(this)" class="fa fa-thumbs-down"></i>
         </div>
     </div>
     
 
-</body>
-
-   
-    
+  </body>
 
 
 </html>
+
+<script>
+    function myFunction(x) {
+      x.classList.toggle("fa-thumbs-down");
+    }
+</script>
+
