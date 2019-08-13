@@ -15,6 +15,7 @@ body {
 
 ul {
   list-style-type: none;
+  text-align: center;
   background: white;
   height: 60px;
   width: 100%;
