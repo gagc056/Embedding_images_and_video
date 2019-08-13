@@ -5,24 +5,29 @@ body {
 }
 
 #sidebar {
-  float: right;
+  /* float: right; */
+  position:absolute; 
+  left:1200px; 
+  top:150px;
+  
 }
 
 #videos {
-  float: left;
-  top: 100px;
+  /* float: left;
+  top: 120px; */
+  position:absolute; 
+  left:25px; 
+  top:90px;
 }
 
 ul {
   list-style-type: none;
-  text-align: center;
   background: gray;
   height: 60px;
   margin: 0;
   padding: 0;
-  display:block;
-  text-align:center;
-  width:150px;
+  display:inline;
+  width:150%;
 
 }
 
@@ -43,6 +48,24 @@ ul a {
 
 li img {
   padding: 1px;
+}
+
+#left{
+  display: inline;
+  float: left;
+
+}
+
+#center{
+  position:absolute; 
+  left: 550px; 
+  top:20px;
+  text-align: center;
+}
+
+#right{
+  display:inline;
+  float:right;
 }
 
 #avatar {
