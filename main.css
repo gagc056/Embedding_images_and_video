@@ -14,7 +14,6 @@ body {
     top:100px;
 }
 
-<<<<<<< HEAD
 ul {
     list-style-type: none;
     background: white;
@@ -48,10 +47,3 @@ ul {
   float:right;
   padding-right: 00px;
 }
-=======
-#nav ul {
-   list-style-type: none;
-  margin: 0;
-  padding: 0
-}
->>>>>>> a6d7964b789c2a54d881c7380867e7406c68f65b
