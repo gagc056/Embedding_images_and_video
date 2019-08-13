@@ -18,10 +18,11 @@ ul {
   text-align: center;
   background: gray;
   height: 60px;
-  width: 100%;
   margin: 0;
   padding: 0;
-  b
+  display:block;
+  text-align:center;
+  width:150px;
 
 }
 
